@@ -21,5 +21,9 @@ public class BankAccount {
 	public double getBalance() {
 		return balance;
 	}
+	
+	public String getName(){
+		return owner;
+	}
 
 }
